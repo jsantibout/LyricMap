@@ -2,8 +2,8 @@ import React from 'react';
 import { useState } from 'react';
 
 interface SearchProps {
-  placeholder: string;
-  onSubmit: (searchTerm: string) => void;
+  placeholder?: string;
+  onSubmit?: (searchTerm: string) => void;
 };
 
 const Search: React.FC<SearchProps> = function ({ items }) {
